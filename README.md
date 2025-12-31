@@ -56,15 +56,16 @@ Run the App: Target a device running API 26 (Oreo) or higher.
 
 🧪 Testing
 
-The application includes Unit Tests to ensure the reliability of the data layer:
+The application includes Unit Tests to ensure the reliability of the data layer.
 
-Repository Tests: Verified using MockK to ensure correct delegation of API calls.
+How to Run Tests (Recommended)
+The easiest way to run the tests is directly within **Android Studio**:
 
-Validation Logic: (Optional) Tests the isInputValid logic within the ViewModel.
+1. **Locate the test file**: Navigate to `app/src/test/java/com/example/rsvpform/RsvpRepositoryTest.kt`.
+2. **Click the Play Button**: Click the green arrow icon (play button) located next to the class name or individual test methods.
+3. **View Results**: The "Run" window at the bottom of the IDE will display the pass/fail status and logs.
 
-To run the tests, execute:
+> **Note**: This method is recommended as Android Studio automatically manages the Java Runtime (JDK) and environment paths for you.
 
-Bash
-./gradlew test
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
