@@ -47,7 +47,7 @@ Clone the repository:
 
 Bash
 
-git clone [https://github.com/yourusername/rsvp-form-android.git](https://github.com/saidalbouti99/rsvp-app-form.git)
+git clone https://github.com/saidalbouti99/rsvp-app-form.git
 Open in Android Studio: Ensure you are using the latest version of Ladybug or higher.
 
 Sync Gradle: Wait for the dependencies to download.
